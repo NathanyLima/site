@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section id="sobre-mim">
+        <h2></h2>
+        <div class="sobre-mim-content">
+            <div class="foto">
+                <img src="foto.jfif" alt="Minha Foto">
+            </div>
+            <div class="descricao">
+                <h3>Olá! me chamo Nathany de Lima Souza, um desenvolvedora apaixonada por criar soluções digitais 👩🏻‍💻💜. Tenho experiência nas tecnologias como HTML, CSS, JavaScript, e frameworks como React e Node.js. <br>Meu objetivo é sempre aprender e desenvolver habilidades para criar produtos que ajudem as pessoas.</h3>
+                <br>
+                <h4>Habilidades: HTML, CSS, JavaScript, React, Node.js, Git, SQL, etc.</h4>
+                <h4>Interesses: Desenvolvimento Web, Design de Interfaces, Inteligência Artificial.</h4>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <div class="projetos">
+            <div class="projeto" onmouseover="highlightProject(this)" onmouseout="resetProject(this)">
+                <h2>Projeto 1</h2>
+                <p>Realizei um projeto de contador de pessoas, atividade realizada em sala de aula.<br> Tecnologias utilizadas: HTML, CSS, JavaScript.</p>
+                <a href="https://react-nine-beryl.vercel.app/Atividade2" target="_blank">
+                    <button class="btn-projeto">Ver Projeto</button>
+                </a>
+            </div>
+            <div class="projeto"  onmouseover="highlightProject(this)" onmouseout="resetProject(this)">
+                <h2>Projeto 2</h2>
+                <p>Esse projeto é um Gerenciador de tarefas. 
+                    <br>Tecnologias utilizadas: Html, CSS, JavaScript.</p>
+                <a href="https://nathanylima.github.io/Atividades/Atividade5/index.html" target="_blank">
+                    <button class="btn-projeto">Ver Projeto</button>
+                </a>
+            </div>
+            
+    </section>
+ 
+    <section id="contato" > 
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo através das seguintes formas:</p>
+        <div class="contato-botoes">
+            <a href="mailto:nathanydeeliimaasouza@gmail.com">
+                <button class="btn-contato">Enviar E-mail</button>
+            </a>
+            <a href="https://github.com/NathanyLima" target="_blank">
+                <button class="btn-contato">Visitar GitHub</button>
+            </a>
+        </div>
+    </section>
+        
+ 
+    <footer>
+        <p>&copy; 2025 Meu Site Pessoal</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+
+</html>
+ 
+ 
